@@ -8,8 +8,9 @@ package Zoho;
 import java.util.*;
 
 /**
- *
- * @author welcom
+ * Just store the vowels in a separate string vow in the order in which 
+ * they appear in string S. Then, traverse the string S in reverse while placing
+ * the vowels that you stored in vow.
  */
 public class Reversing_Vowels {
     public static void main(String args[]){
@@ -31,16 +32,17 @@ class Solution
         }
         char ch;
         int c=0;
-        for(int i=s.length()-1;i>=0;i--){
+        for(int i=ss.length()-1;i>=0;i--){
             ch=s.charAt(i);
-            if(ch=='a' || ch=='e'|| ch=='i'|| ch=='o'|| ch=='u'){
+            if(isVowel(ch)){
                 ss.setCharAt(i, vow.charAt(c++));
             }
         }
         return ss.toString();
     }
     boolean isVowel(char ch){
-        if(ch=='a' || ch=='e'|| ch=='i'|| ch=='o'|| ch=='u'|| ch=='A' || ch=='E'|| ch=='I'|| ch=='O'|| ch=='U')
+        if(ch=='a' || ch=='e'|| ch=='i'|| ch=='o'|| ch=='u'||
+                ch=='A' || ch=='E'|| ch=='I'|| ch=='O'|| ch=='U')
             return true;
         return false;
     }
