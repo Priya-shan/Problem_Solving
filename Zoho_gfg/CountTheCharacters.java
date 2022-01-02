@@ -21,32 +21,10 @@ public class CountTheCharacters {
 
 class CountTheCharactersSolution {
 
-    int getCount(String S, int N) {
-    int freq[] = new int[26];
-        int n = S.length ();
+    int getCount(String s, int k) {
     
-        int i = 0, j;
-        while (i < n)
-        {
-            j = i;
-            while (j < n && S.charAt (j) == S.charAt (i)) j++;
-            //System.out.println((int)(S.charAt (i) - 'a'));
-            freq[(int)(S.charAt (i) - 'a')]++;
-            
     
-            i = j;
-        }
-        System.out.println(Arrays.toString(freq));
-    
-        int res = 0;
-        for (i = 0; i < 26; ++i)
-        {
-            if (freq[i] == N)
-                res++;
-        }
-        return res;
-    }
-        /*Map<Character, Integer> hmap = new HashMap<>();
+        Map<Character, Integer> hmap = new HashMap<>();
         String temp = s;
 
         StringBuilder sb = new StringBuilder(s);
@@ -107,5 +85,32 @@ class CountTheCharactersSolution {
             }
         }
         return hmap;
-    }*/
+    }
 }
+
+//Alternate approach  :::: [0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0]
+/*
+int freq[] = new int[26];
+        int n = S.length ();
+    
+        int i = 0, j;
+        while (i < n)
+        {
+            j = i;
+            while (j < n && S.charAt (j) == S.charAt (i)) j++;
+            //System.out.println((int)(S.charAt (i) - 'a'));
+            freq[(int)(S.charAt (i) - 'a')]++;
+            
+    
+            i = j;
+        }
+        System.out.println(Arrays.toString(freq));
+    
+        int res = 0;
+        for (i = 0; i < 26; ++i)
+        {
+            if (freq[i] == N)
+                res++;
+        }
+        return res;
+*/
