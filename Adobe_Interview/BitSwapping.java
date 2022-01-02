@@ -9,6 +9,6 @@ package Adobe_Interview;
  *
  * @author welcom
  */
-public class inorder {
+public class BitSwapping {
     
 }
