@@ -8,7 +8,7 @@ package Gfg_Problem_Of_The_Day;
 import java.util.Arrays;
 
 /**
- *
+ * Jan-2-2022 
  * @author welcom
  */
 public class Kth_Smallest_Factor {
