@@ -9,7 +9,7 @@ package Zoho_gfg;
  *
  * Reverse and add until count is less than 5.
  */
-public class isSumPalindrome {
+public class SumPalindrome__school {
 
     public static void main(String args[]) {
         isSumPalindromeSolution obj = new isSumPalindromeSolution();

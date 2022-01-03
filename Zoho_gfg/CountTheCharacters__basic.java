@@ -11,7 +11,7 @@ import java.util.*;
  *
  * @author welcom
  */
-public class CountTheCharacters {
+public class CountTheCharacters__basic {
 
     public static void main(String args[]) {
         CountTheCharactersSolution obj = new CountTheCharactersSolution();

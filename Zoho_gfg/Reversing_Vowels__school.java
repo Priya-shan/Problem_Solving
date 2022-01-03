@@ -12,7 +12,7 @@ import java.util.*;
  * they appear in string S. Then, traverse the string S in reverse while placing
  * the vowels that you stored in vow.
  */
-public class Reversing_Vowels {
+public class Reversing_Vowels__school {
     public static void main(String args[]){
         Solution obj=new Solution();
         System.out.println(obj.modify("practise"));

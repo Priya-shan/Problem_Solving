@@ -9,7 +9,7 @@ package Zoho_gfg;
  *formula : sqrt( (x2-x1)^2 + (y2-y1)^2 )
  * @author welcom
  */
-public class DistanceBet2Pts {
+public class DistanceBet2Pts__school {
     public static void main(String args[]) {
         DistanceBet2PtsSolution obj = new DistanceBet2PtsSolution();
         //System.out.println(Math.pow(5, 2));
