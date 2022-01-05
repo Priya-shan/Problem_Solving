@@ -7,8 +7,8 @@ package Gfg_Problem_Of_The_Day;
 
 import java.util.Arrays;
 
-/**
- *
+/** #two pointer algorithm
+ * Jan-5-2022
  * @author welcom
  */
 public class BinaryArraySorting {
