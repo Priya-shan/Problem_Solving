@@ -11,7 +11,15 @@ package Zoho_gfg;
  */
 public class TotalCount__basic {
      public static void main(String args[]){
-        Solution obj=new Solution();
-        System.out.println(obj.modify("practise"));
+        TotalCountSolution obj=new TotalCountSolution();
+        int[] arr={5, 8, 10, 13};
+        int n=arr.length;
+        int k=3;
+        System.out.println(obj.totalCount(arr,n,k));
+    }
+}
+class TotalCountSolution{
+    int totalCount(int[] arr, int n, int k) {
+        return 1;
     }
 }

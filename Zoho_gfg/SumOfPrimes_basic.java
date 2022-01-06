@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author welcom
  */
-public class sumOfPrimes {
+public class SumOfPrimes_basic {
 
     public static void main(String args[]) {
         sumOfPrimesSolution obj = new sumOfPrimesSolution();
