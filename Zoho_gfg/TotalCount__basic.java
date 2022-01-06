@@ -20,6 +20,13 @@ public class TotalCount__basic {
 }
 class TotalCountSolution{
     int totalCount(int[] arr, int n, int k) {
-        return 1;
+        int count=0;
+        for(int i:arr){
+            int ele=i;
+            count+=ele/k;
+            if(ele%k!=0)
+                count++;
+        }
+        return count;
     }
 }
