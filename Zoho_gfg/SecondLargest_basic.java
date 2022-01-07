@@ -6,6 +6,8 @@
 package Zoho_gfg;
 
 import java.util.*;
+import java.util.*;
+
 
 /**
  *
@@ -14,7 +16,7 @@ import java.util.*;
 public class SecondLargest_basic {
      public static void main(String args[]){
         SecondLargestSolution obj=new SecondLargestSolution();
-        int[] arr={ 2, 4, 5, 6, 7 };
+        int[] arr={ 2, 4, 9, 6, 7 };
          System.out.println(obj.print2largest(arr));
     }
 }
