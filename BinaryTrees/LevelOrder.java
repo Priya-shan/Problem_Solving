@@ -13,7 +13,7 @@ public class LevelOrder {
     
     public static void main(String args[]){
      BinarySearchTree tree=new BinarySearchTree();
-        System.out.println(Double.parseDouble("9.78313E+2"));
+        //System.out.println(Double.parseDouble("9.78313E+2"));
         tree.insert(20);
         tree.insert(10);
         tree.insert(30);
