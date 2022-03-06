@@ -42,6 +42,7 @@ class GreatSum_Solution{
     {
         int data[]=new int[r];
         combinationUtil(arr, data, 0, n-1, 0, r,combi);
+        System.out.println(combi);
         return combi;
     }
     
