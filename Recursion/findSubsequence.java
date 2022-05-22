@@ -15,7 +15,7 @@ public class findSubsequence {
     public static void main(String[] args) {
         findSubsequence_solution obj=new findSubsequence_solution();
         ArrayList<String> lst=new ArrayList<>();
-        System.out.println(obj.subseq("","112",lst));
+        System.out.println(obj.subseq("","abc",lst));
                 
                 
     }

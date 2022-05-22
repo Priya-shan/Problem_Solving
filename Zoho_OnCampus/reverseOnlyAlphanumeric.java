@@ -38,7 +38,7 @@ class reverseOnlyAlphanumericSolution{
             }  
             cnt++;
         }
-        
+        System.out.println(lst);
         String reversedWord=sb.reverse().toString();
         
         int index=0;
