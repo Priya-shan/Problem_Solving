@@ -15,10 +15,12 @@ public class StarPattern {
         int s=5;
         for(int i=0;i<(n*2-1);i++){
             for(int j=0;j<(n*2-1);j++){
-                if(j==(s-1) || j>(s-1)){
+                if(j==(s-1)){
                     System.out.print("*");
+                    //while((n-1)-j){
+                        
+                    //}
                     s--;
-                    //break;
                 }
                 else{
                 System.out.print("-");
