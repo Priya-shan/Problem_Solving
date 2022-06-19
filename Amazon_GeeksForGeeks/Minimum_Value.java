@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Amazon_Coding;
+//DivyaSri Amazon SDE Interview Question
+package Amazon_GeeksForGeeks;
 
 import java.io.*;
 import java.util.*;
