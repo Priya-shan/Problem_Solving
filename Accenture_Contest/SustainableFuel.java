@@ -24,7 +24,7 @@ public class SustainableFuel {
         long[] res=min_sum_queries(N,A,Q,queries);
         System.out.println("-----"+Arrays.toString(res));
     }
-    static long[] min_sum_queries(int N, int[] A, int Q, int[][] queries){
+    public static long[] min_sum_queries(int N, int[] A, int Q, int[][] queries){
         long[] result = new long[Q];
         int index=0;
         for(int i=0;i<Q;i++){
@@ -80,4 +80,7 @@ public class SustainableFuel {
         }
         return lst1;
     }
+}
+class soln{
+    
 }

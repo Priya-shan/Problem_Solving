@@ -21,7 +21,7 @@ public class balancedParanthesis {
         System.out.println(res);
 
     }
-
+//   )abc(d)
     public boolean isBalanced(String str) {
         Stack<Character> st = new Stack<>();
         for (char ch : str.toCharArray()) {
