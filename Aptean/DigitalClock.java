@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Recursion;
+package Aptean;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author welcom
  */
-public class One {
+public class DigitalClock {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

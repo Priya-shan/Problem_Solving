@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Recursion;
+package Regex;
 
 import java.util.*;
 import java.util.regex.*;
@@ -12,7 +12,7 @@ import java.util.regex.*;
  *
  * @author welcom
  */
-public class gfg {
+public class Gfg_Valid_Ip {
 
     public static void main(String[] args) {
 //        String s="2.2.2.2";

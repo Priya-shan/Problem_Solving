@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Recursion;
+package HCL;
 
 /**
  *
@@ -66,6 +66,8 @@ public class Main {
                 //int[] arrr=new int[6];
                 // Arrays.sort(arrr);
                 //System.out.println(Arrays.toString(arrr));
+//                arr->arr.length;
+//                string->str.length();
                 ArrayList<Integer> lst=new ArrayList<>();
                 lst.add(99);
                 lst.add(33);
@@ -76,6 +78,33 @@ public class Main {
                lst2.addAll(lst);
                System.out.println(lst2.contains(199));
                 System.out.println(lst2.get(0));
+                int length =lst2.size();
                 System.out.println(lst2);
+//                
+//                int max=Integer.MIN_VALUE;
+//                for(int i=0;i<farms.length;i++){
+//                    int val=(farms[i].hens*2)+(farms[i].cows*4);
+//                    if(max<val){
+//                        max=val;
+//                    }
+//                }
+//                return max;
+                int[] arr={4,5,2,9,10,3,1,6};
+                ArrayList<Integer> odd=new ArrayList<>();
+                ArrayList<Integer> even=new ArrayList<>();
+                int n=arr.length;
+                for(int i=0;i<n;i++){
+                    if(i%2==0){
+                        even.add(arr[i]);
+                    }
+                    else{
+                        odd.add(arr[i]);
+                    }
+                }
+                Collections.sort(odd);
+                Collections.sort(even);
+                System.out.println(even.get(even.size()-2)+odd.get(1));
+                
+                
 	}
 }
