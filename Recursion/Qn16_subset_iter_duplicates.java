@@ -30,6 +30,9 @@ public class Qn16_subset_iter_duplicates {
             if(i>0 && arr[i]==arr[i-1]){
                 start=end+1;
             }
+            else{
+                start=0;
+            }
             end=outer.size()-1;
             int n=outer.size();
             for(int j=start;j<n;j++){
