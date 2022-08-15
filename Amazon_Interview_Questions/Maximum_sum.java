@@ -12,9 +12,10 @@ import java.util.*;
  *
  * @author Shanmuga Priya M
  */
+//stock price
 public class Maximum_sum {
     public static void main(String[] args) {
-        int[] nums={1, 2,2};
+        int[] nums={1, 2,7,7,4,3,6};
         int left=0,res=-1,sum=0;
         int k=3;
         ArrayList<Integer> lst=new ArrayList<>();
