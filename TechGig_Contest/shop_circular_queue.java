@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package techgig;
+package TechGig_Contest;
 
 import java.io.*;
 import java.util.*;
