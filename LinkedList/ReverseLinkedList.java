@@ -12,13 +12,30 @@ package LinkedList;
 public class ReverseLinkedList {
 
     public static void main(String args[]) {
-        LinkedList ll = new LinkedList();
-        ll.addLast(10);
-        ll.addLast(20);
-        ll.addLast(30);
-        ll.addLast(40);
-        System.out.println(ll);
+        CustomLinkedList ll = new CustomLinkedList();
+        ll.insertLast(10);
+        ll.insertLast(20);
+        ll.insertLast(30);
+        ll.insertLast(40);
+        ll.display();
         ll.reverse();
-        System.out.println(ll);
+
+//        CustomDoublyLinkedList dll = new CustomDoublyLinkedList();
+//        dll.InsertLast(10);
+//        dll.InsertLast(20);
+//        dll.InsertLast(30);
+//        dll.InsertLast(40);
+//        dll.display();
+//        dll.reverse();
+//        
+//        CustomDCircularLinkedList cll = new CustomDCircularLinkedList();
+//        cll.InsertLast(10);
+//        cll.InsertLast(20);
+//        cll.InsertLast(30);
+//        cll.InsertLast(40);
+//        cll.display();
+        //cll.reverse();
+        
+        
     }
 }

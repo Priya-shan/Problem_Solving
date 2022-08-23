@@ -14,7 +14,9 @@ import java.util.*;
  */
 public class Dummy_Website {
     public static void main(String[] args) {
-        String[] desc={"register david david123","register adam 1Adam1","login david david123","login adam 1adam1","logout david"};
+        //String[] desc={"register david david123","register adam 1Adam1","login david david123","login adam 1adam1","logout david"};
+        String[] desc={"login harry 12345678","register adam 1Adam1","login david david123","login adam 1adam1","logout david"};
+        
         int n=desc.length;
         HashMap<String,String> users_reg=new HashMap<>();
         HashMap<String,String> users_login=new HashMap<>();
